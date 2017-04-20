@@ -11,7 +11,7 @@ namespace Microsoft.Owin.Security.WeChat
         public WeChatAuthenticationOptions()
             : base(AUTHENTICATION_TYPE)
         {
-            Caption = "微信账号";
+            Caption = "微信登陆";
             ReturnEndpointPath = "/signin-wechatconnect";
             AuthenticationMode = AuthenticationMode.Passive;
             Scope = new List<string> { "get_user_info" };

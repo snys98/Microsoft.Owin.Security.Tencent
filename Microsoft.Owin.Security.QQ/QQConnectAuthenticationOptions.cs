@@ -26,7 +26,7 @@ namespace Microsoft.Owin.Security.WeChat
         public QQConnectAuthenticationOptions()
             : base(AUTHENTICATION_TYPE)
         {
-            Caption = "QQ账号";
+            Caption = "QQ登陆";
             ReturnEndpointPath = "/signin-qqconnect";
             AuthenticationMode = AuthenticationMode.Passive;
             Scope = new List<string> { "get_user_info" };
